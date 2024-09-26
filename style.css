@@ -1,0 +1,78 @@
+
+
+
+.btn-color{
+        background-color: #6f42c1 ;
+        color: white;
+    
+    }
+    .btn-color:hover{
+        background-color:#4d0099;
+        color: white;
+    }
+    
+    .t-color{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .main #no-1{
+       border: 2px solid gray;
+     max-width: 100%;
+       padding: 10px 50px;
+       border-radius: 35px;
+       text-align: center;
+       box-shadow: 2px 3px 2px gray;
+       color: orangered;
+       font-weight: 600;
+       font-size: 25px
+    }
+    .main #no-1:hover{
+        background-color: gainsboro;
+        font-weight: 800;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+      max-width: 100%;
+      width: 1000px;
+      /* height: 500px; */
+      margin-left: 50px;
+    }
+   
+  .main input{
+      width: 600px;
+      padding: 10px;
+      padding-left: 30px;
+      position: relative;
+      border-right: none;
+      border-radius: 25px;
+      outline: none;
+    
+    }
+    .main .fa-solid{
+       border: 2px solid red;
+       width: 90px;
+       height: 46px;
+       text-align: center;
+       padding-top: 13px;
+       background-color: #6f42c1;
+      color: white;
+      border-radius: 20px;
+    position: absolute;
+    left: 977px;
+    top: 406;
+    font-size: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .main #no-2{
+        font-size: 20px;
+        font-weight: 500; 
+        margin-bottom: 30px
+    }

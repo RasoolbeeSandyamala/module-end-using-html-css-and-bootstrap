@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   #btn1{
+    background-color: #6f42c1 ;
+    color: white;
+
+}
+#btn1:hover{
+    background-color:#4d0099;
+    color: white;
+}
+    .para{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+    }
+    .para p{
+        width: 300px;
+        font-size: 1.5rem;
+      max-width: 100%;
+      border: 2px solid black;
+      border-radius: 30px;
+      padding: 5px;
+      color: orangered;
+      text-align: center;
+      font-weight: 700;
+      box-shadow: 2px 3px 2px gray;
+    }
+    .para p:hover{
+    background-color: gainsboro;
+    font-weight: 800;
+}
+    .heading{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 50px;
+        height: 50%;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading h1{
+        font-size: 4rem;
+        text-shadow: 2px 3px 4px rgba(20%,20%, 30%, 0.5);
+        padding:5px 10px;
+        margin-bottom: -5px;
+        font-weight: bold;
+    }
+    .heading p{
+        font-size: 18px;
+    }
+    .search-input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+        margin-top: -30px;
+    }
+    .search-input input[type=text]{
+        width: 35%;
+       max-width: 100%;
+        font-size: 1.5rem;
+        padding: 5px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: none;
+        border-bottom-left-radius: 50px;
+        border-right: none;
+    }
+    .search-input button{
+        padding: 10px;
+        min-width: 100px;
+        background-color: blueviolet;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .search-input .fa-solid{
+        font-size: 1.5rem;
+        color: aliceblue;
+    }
+    .carousel-control-prev-icon {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .carousel-control-next-icon {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+    }
+
+   
+    .carousel-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        margin-left: -100px;
+        margin-top: -50px;
+    }
+    .footer{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer .socials .fa-brands{
+        color: black;
+        font-size: 30px;
+        margin-right:10px ;
+    }
